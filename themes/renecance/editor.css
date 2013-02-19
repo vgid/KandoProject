@@ -1,0 +1,46 @@
+* {
+	font-family:Georgia, "Times New Roman", Times, serif; 
+}
+body { 
+	text-align:left; 
+	background: #FFFFFF; 
+	margin:0px; 
+	padding:0px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color:#000000; 
+	font-size:12px; 
+}
+img { 
+	border:0;
+}
+tr,td{ 
+	vertical-align:top; 
+}
+p{ 
+	margin:10px 0 10px 0; 
+}
+a{ 
+	color:#3b9dff; 
+	text-decoration:underline; 
+	background-color:inherit; 
+}
+a:hover{ 
+	color:#2c83da; 
+	text-decoration:none; 
+	background-color:inherit; 
+}
+a:visited{ 
+	color:#2c83da; 
+	background-color:inherit; 
+}
+
+/*
+	Styles
+*/
+.underlined{ 
+	float:right; 
+	position:relative; 
+	margin:0 0 5px 0; 
+	padding:0 0 5px 5px; 
+	background:url("images/line.gif") bottom repeat-x; 
+}

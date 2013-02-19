@@ -1,0 +1,46 @@
+* { 
+	padding:0; 
+	margin:0;
+	position:relative;
+	display:block;
+	width:auto;
+	height:auto;
+	font-weight:normal;
+	color:#000000;
+	border:0;
+}
+body { 
+	background:#FFFFFF; 
+	color:#000000;
+	padding:0;
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#ffffff;
+	font-size:8pt; }
+h1, h2{ 
+	font-size:10pt;
+}
+a{ 
+	color:#000000; text-decoration:underline;
+}
+#right, 
+#uslestext, 
+#mainImage, 
+#topNavigation, 
+#homeRight, 
+#pencil, 
+#bottomArnamentCopyright a, 
+.clear, 
+div .blockServizi2 div img, 
+div .blockServizi div img, 
+div.block2 a img, 
+.offerArrow, #contattiForm{ 
+	display:none;
+	visibility:hidden;
+}
+.contactDet{
+	padding:10pt;
+}
+
+.PortfolioSite{ width:100%; text-align:center; }
+.PortfolioSite img{ padding:5pt; }

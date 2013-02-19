@@ -1,0 +1,590 @@
+/**
+ *  Sync Template 1.0
+ *  Author: Themes Drupal.org | www.themes-drupal.org
+ *  Official Website: http://www.realizzazione-siti-vicenza.com
+ *  Email: finex@finex.org
+ *
+ *  Powered by FiNeX design - http://www.finex.org
+ */
+
+/********************************* LAYOUT ************************************/
+
+body{
+  background-color:#FFFFFF;
+  background-position: left;  
+  color:#2f414f;
+  font: 12px Arial, Verdana, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.fixed{
+  width:950px;
+  margin:0 auto;
+  border:0;
+  text-align:left;
+}
+
+.none{display:none}
+
+#mission{
+  text-align:center;
+  display:block;
+  height:21px;
+  line-height:21px;
+  overflow:hidden;
+  font-size:10px;
+  border-bottom:4px solid #276395;
+}
+
+#top{
+  display:block;
+  overflow:hidden;
+  clear:both;
+  height:80px;
+  background-position:0 0;
+  margin-bottom:10px;
+  color:white;
+}
+
+#site-info{
+  height:80px;
+  width:710px;
+  display:block;
+  float:left;
+  overflow:hidden;
+}
+
+#site-logo{
+  margin-left:20px;
+  display:block;
+  height:80px;
+  width:231px;
+  float:left;
+}
+
+#site-name{
+  line-height:80px;
+  font-size:20px;
+  padding:0 20px;
+  display:block;
+  float:left;
+}
+
+#site-slogan{
+  display:block;
+  float:left;
+  line-height:80px;
+}
+
+#secondary{
+  height:80px;
+  width:130px;
+  display:block;
+  float:right;
+  overflow:hidden;
+  color: #000000;
+}
+
+#header{margin-bottom:10px}
+
+#wrapper{
+  overflow:hidden;
+  clear:both;
+  margin-bottom:10px
+}
+
+#page{
+  display:block;
+  float:right;
+  width:710px;
+}
+
+#preface{
+  overflow:hidden;
+  clear:both;
+  margin-bottom:10px;
+  width:710px;
+  line-height:1.5em;
+}
+
+#preface_middle{margin:0 10px 0 10px;}
+
+#title{
+  height:40px;
+  width:710px;
+  line-height:40px;
+  background-image:url(img/title.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+
+#container{font-size:14px}
+
+#content{
+  margin-bottom:10px;
+  padding:20px;
+  background-color:white;
+}
+
+#content_bottom{
+  margin-bottom:10px;
+  padding:20px;
+  background-color:white;
+}
+
+#sidebar{
+  display:block;
+  float:left;
+  width:230px;
+}
+
+#primary{margin-bottom:10px}
+
+#sidebar_first{margin-bottom:10px}
+
+#sidebar_top{
+  display:block;
+  width:230px;
+  height:20px;
+  background-image:url(img/sidebar_top.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+
+#sidebar_last{
+  background-color:#5A98CB;
+  color:white
+}
+
+#sidebar_bottom{
+  display:block;
+  width:230px;
+  height:20px;
+  background-image:url(img/sidebar_bottom.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+
+#footer{
+  display:block;
+  height:35px;
+  line-height:35px;
+  text-align:center;
+  background-image:url(img/footer.png);
+  background-repeat:repeat;
+  background-position:0 0;
+  color:white;
+  clear:both;
+}
+
+#footer_message{
+  font-size:10px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+#credits{text-align:center}
+
+.top_block{
+  display:block;
+  overflow:hidden;
+  width:230px;
+  height:230px;
+  background-image:url(img/top_block.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  color:white;
+}
+
+.top_block ul.links,
+.top_block .block{padding:20px}
+
+#preface .top_block{float:left}
+
+
+/*********************************** TITLES ***********************************/
+
+h1, h2, h3, h4, h5{
+  margin:0 0 10px 0;
+  font-weight:normal;
+}
+
+#container h2, #container h3, #container h4, #container h5{
+  color:#5189b7;
+}
+
+h1#title{
+  font-size:20px;
+  color:white;
+  padding:0 20px 0 20px;
+}
+
+h2{font-size:24px}
+h3{font-size:20px}
+h4{font-size:18px}
+h5{font-size:16px}
+
+#credits h5{
+  font-size:10px;
+  font-weight:normal
+}
+
+#content_bottom h3{
+  color:#5189b7;
+  font-weight:normal;
+  font-size:24px;
+}
+
+#sidebar_last h3{
+  padding:0 20px;
+  font-size:18px;
+  font-weight:bold
+}
+
+
+/************************************ LINK ************************************/
+
+a, a:link, a:visited, a:active, li a:active{
+  text-decoration:none;
+  color:#e7861d;
+}
+
+a:hover{text-decoration:underline}
+h1#title a:hover{text-decoration:none}
+h1#title a{color:white}
+
+#primary a, #primary a:link, #primary a:visited, #primary a:active, #primary li a:active{
+  color:white;
+  font-size:18px;
+}
+
+#secondary a, #secondary a:link, #secondary a:visited, #secondary a:active, #secondary li a:active{
+  color:black;
+  font-size:10px;
+}
+
+#sidebar_last a, #sidebar_last a:link, #sidebar_last a:visited, #sidebar_last a:active, #sidebar_last li a:active{color:white}
+#preface a, #preface a:link, #preface a:visited, #preface a:active, #preface li a:active{color:white}
+
+#site-logo a{font-size:0}
+#site-name a{color:white}
+
+
+/*********************************** LISTS ************************************/
+
+#container ul{list-style-image: url(img/bullet.png)}
+
+#container ul,
+#container ol{
+  list-style-position: inside;
+  line-height:1.5em;
+  margin-bottom:10px;
+}
+
+#container .node ol li{
+  margin:0 0 0 20px;
+  padding:0;
+}
+#container .node ul li{
+  margin:0;
+  padding:0;
+}
+
+.item-list ul li{line-height:1.5em}
+
+.block-similar .item-list ul li{font-size:18px}
+
+#container .node ol li{list-style:decimal}
+
+dl dd {
+  padding-left:20px;
+  font-size:13px;
+}
+
+
+/******************************** PRIMARY LINKS *******************************/
+
+#primary ul.links li{
+  display:block;
+  padding:10px 0;
+  border-bottom:1px dashed white;
+}
+
+
+/******************************** SECONDARY LINKS *******************************/
+
+#secondary{text-align:right}
+
+#secondary ul.links{  padding-right:5px;}
+#secondary ul.links li{
+  display:block;
+  padding:2px 0;
+  border-bottom:1px dashed white;
+}
+
+
+/********************************** HEADER ************************************/
+
+#header p{
+/*
+ * If you plan to add text into this block, be careful and remove the
+ * line height property.
+ */
+  line-height:0;
+}
+
+
+/********************************** BLOCKS ************************************/
+
+#sidebar_last .block .content{padding:0 20px 0 20px}
+
+
+/************************************ NODES ***********************************/
+
+#container .node {
+  margin-bottom:20px;
+}
+
+.node p{
+  margin-top:0;
+  margin-bottom:8px;
+  line-height:1.5em;
+}
+
+
+/******************************** OTHER ELEMENTS ******************************/
+
+blockquote{
+  margin:0;
+  font-size:22px;
+  color:#a9a9a9;
+  line-height:1.3em;
+  padding-left:30px;
+  background-image:url(img/blockquote.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+
+tbody{border:0}
+table{width:100%}
+
+
+hr{
+  border:1px dashed #cccccc;
+  height:0px;
+  margin:20px 0 20px 0;
+}
+
+#simplemenu{position:relative }
+
+code{
+  font-family:monospace;
+  padding:5px;
+  background-color:#eeeeee;
+  border:1px solid #bbbbbb;
+}
+
+
+/********************************** TABLES ************************************/
+
+table th,
+table td{
+  padding:5px;
+  vertical-align:middle
+}
+
+table th{font-size:0.85em}
+
+div.block table{margin:0}
+
+table tr.odd{background:#f0f8fa}
+
+table thead tr,
+table tr.even{background:#f6fbfc}
+
+table td,
+table th{padding:5px}
+
+table#attachments{margin-top:10px}
+
+
+/************************************ FORM ************************************/
+
+label{font-weight:bold}
+
+select,
+textarea,
+.form-text,
+.form-textarea,
+.form-select{
+  width:90%;
+  padding:5px;
+  border:1px solid #ccc;
+  background:white;
+  color:#333333;
+}
+
+.form-text:focus,
+.form-textarea:focus,
+.form-select:focus{
+  color:black;
+  border-color:#5a98cb;
+  background:#eeeeee;
+}
+
+input.form-submit{
+  cursor:pointer;
+  padding:3px 10px;
+  color:white;
+  font-weight:normal;
+  background:#5a98cb;
+  border:1px solid #5189B7;
+}
+
+input.form-submit:active{background:#E7861D}
+
+input.form-radio,
+input.form-checkbox{vertical-align:middle}
+
+.form-item .description,
+.description{
+  color:#666666;
+  font-size:11px;
+}
+
+div.collapsible h2.fieldset-title{cursor:pointer}
+div.collapsed div.fieldset-content{display:none}
+
+fieldset.collapsible{
+  padding:5px;
+  border:1px solid #cccccc;
+  margin-bottom:10px;
+}
+
+
+#autocomplete ul{list-style-image: none}
+
+html.js input.form-autocomplete{background-position:100% 7px}
+html.js input.throbbing{background-position:100% -13px}
+#diff-inline-form select,
+#content div.filter-options select{padding:0}
+
+#content div.form-item{margin-bottom:20px}
+#content div.form-option{margin-bottom:10px}
+#content table div.form-item{margin-bottom:0}
+
+
+/************************** SPECIFIC FORMS ************************************/
+
+div.container-inline div{display:inherit}
+
+form#user-pass input.form-text,
+form#user-login input.form-text{font-size:18px}
+
+
+/******************************** FIELDSETES **********************************/
+
+div.fieldset,
+div.view-filters,
+form table{
+  background:white;
+  border:1px solid #dddddd;
+  margin:0 0 10px;
+}
+
+div.fieldset h2.fieldset-title{
+  background:transparent;
+  font-size:11px;
+  font-weight:bold;
+  padding:5px;
+}
+
+div.fieldset div.fieldset-content{
+  background:transparent;
+  border:0;
+  padding:5px;
+}
+
+div.fieldset table{background:#eeeeee}
+
+
+/****************************** PREVIEW NODE **********************************/
+
+div.preview .node{
+  border:1px solid #eeeeee;
+  border-bottom-color:#dddddd;
+  padding:9px;
+  margin:0 0 20px;
+}
+
+div.preview .node h1{
+  background:#f8f8f8;
+  padding:4px;
+  font-size:11px;
+}
+
+div.preview .node .content{padding:9px}
+
+/*********************************** TABS *************************************/
+div.tabs ul.tabs{
+  border:1px solid #dddddd;
+  padding:10px;
+  margin-bottom:5px;
+  font-size:12px;
+}
+
+ul.tabs li{padding-right:10px}
+
+ul.tabs li.active a {
+  font-weight:bold;
+  color:#333333;
+}
+
+div.tabs ul.secondary{
+  background-color:#dddddd
+}
+
+
+/******************************* ELEMENTI SIDEBAR *****************************/
+
+.views-row-last h4{margin-bottom:0}
+
+
+/************************************ PAGER ***********************************/
+
+.item-list .pager li{
+  font-size:12px;
+  padding:0;
+}
+
+
+/************************************* TAGS ***********************************/
+
+.tags{
+  font-size:0.85em;
+  border:1px solid #f5f5f5;
+  padding:5px;
+  color:#858585;
+}
+
+
+/*********************************** MESSAGES *********************************/
+
+div.messages{margin:0 0 20px 0}
+
+div.messages ul li{list-style-type:none;}
+
+div.status{
+  padding:2px;
+  border:1px solid #008A2E;
+  background-color:#B1F9C9;
+}
+
+div.error{
+  padding:2px;
+  border:1px solid #F95137;
+  background-color:#F9B2B2;
+}
+
+
+/*********************************** EOF **************************************/

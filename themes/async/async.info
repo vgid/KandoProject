@@ -1,0 +1,24 @@
+name = async
+description = A Sync Template
+version = 1.0
+core = 6.x
+engine = phptemplate
+
+regions[header] = Header
+regions[preface_first] = Preface First
+regions[preface_middle] = Preface Middle
+regions[preface_last] = Preface Last
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[sidebar_first] = Sidebar First
+regions[sidebar_last] = Sidebar Last
+regions[footer] = Footer
+
+stylesheets[screen][] = "reset.css"
+stylesheets[screen][] = "style.css"
+; Information added by drupal.org packaging script on 2009-11-25
+version = "6.x-1.9"
+core = "6.x"
+project = "async"
+datestamp = "1259153703"
+
